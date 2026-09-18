@@ -7,30 +7,30 @@
 -->
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Sajjad Arif Gul — sajjad.runtime v10.0.0" width="100%" />
+  <img src="./assets/banner.svg" alt="Sajjad Arif Gul, Senior .NET Software Engineer" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://sajjadgul.com">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1200&color=A78BFA&center=true&vCenter=true&width=740&lines=I+ship+production.+Then+I+add+AI.;Reliable+software+first.;C%23+%7C+ASP.NET+Core+%7C+React+%7C+RAG" alt="I ship production. Then I add AI." />
+    <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=600&size=20&duration=2800&pause=1200&color=CC3719&center=true&vCenter=true&width=740&lines=I+ship+production.+Then+I+add+AI.;Reliable+software+first.;C%23+%7C+ASP.NET+Core+%7C+React+%7C+RAG" alt="I ship production. Then I add AI." />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/build-passing-22c55e?style=flat-square" alt="build passing" />
-  <img src="https://img.shields.io/badge/tests-production_grade-22c55e?style=flat-square" alt="tests" />
-  <img src="https://img.shields.io/badge/ai-behind_auth-8b5cf6?style=flat-square" alt="ai behind auth" />
-  <img src="https://img.shields.io/badge/legacy-currently_migrating-f59e0b?style=flat-square" alt="legacy" />
-  <img src="https://img.shields.io/badge/coffee-critical_dep-ef4444?style=flat-square" alt="coffee" />
-  <img src="https://komarev.com/ghpvc/?username=SajjadArifGul&label=profile+hits&color=6d28d9&style=flat-square" alt="profile views" />
+  <img src="https://img.shields.io/badge/build-passing-191714?style=flat-square&labelColor=F5F2EC&color=191714" alt="build passing" />
+  <img src="https://img.shields.io/badge/tests-production_grade-191714?style=flat-square&labelColor=F5F2EC&color=191714" alt="tests" />
+  <img src="https://img.shields.io/badge/ai-behind_auth-CC3719?style=flat-square&labelColor=F5F2EC&color=CC3719" alt="ai behind auth" />
+  <img src="https://img.shields.io/badge/legacy-being_rewritten-67625C?style=flat-square&labelColor=F5F2EC&color=67625C" alt="legacy" />
+  <img src="https://img.shields.io/badge/coffee-critical-CC3719?style=flat-square&labelColor=F5F2EC&color=CC3719" alt="coffee" />
+  <img src="https://komarev.com/ghpvc/?username=SajjadArifGul&label=profile+hits&color=CC3719&style=flat-square" alt="profile views" />
 </p>
 
 <p align="center">
-  <a href="https://sajjadgul.com"><img src="https://img.shields.io/badge/sajjadgul.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=A78BFA" alt="website" /></a>
-  <a href="https://sajjad.ai"><img src="https://img.shields.io/badge/sajjad.ai-6D28D9?style=for-the-badge&logo=openai&logoColor=white" alt="sajjad.ai" /></a>
-  <a href="https://linkedin.com/in/sajjadarifgul"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
-  <a href="https://x.com/SajjadArifGul"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="x" /></a>
-  <a href="https://codecanyon.net/user/sajjadarifgul"><img src="https://img.shields.io/badge/CodeCanyon-24C48E?style=for-the-badge&logo=envato&logoColor=white" alt="codecanyon" /></a>
+  <a href="https://sajjadgul.com"><img src="https://img.shields.io/badge/sajjadgul.com-191714?style=for-the-badge" alt="website" /></a>
+  <a href="https://sajjad.ai"><img src="https://img.shields.io/badge/sajjad.ai-CC3719?style=for-the-badge" alt="sajjad.ai" /></a>
+  <a href="https://linkedin.com/in/sajjadarifgul"><img src="https://img.shields.io/badge/LinkedIn-191714?style=for-the-badge" alt="linkedin" /></a>
+  <a href="https://x.com/SajjadArifGul"><img src="https://img.shields.io/badge/X-191714?style=for-the-badge" alt="x" /></a>
+  <a href="https://codecanyon.net/user/sajjadarifgul"><img src="https://img.shields.io/badge/CodeCanyon-191714?style=for-the-badge" alt="codecanyon" /></a>
 </p>
 
 ---
@@ -65,7 +65,7 @@ Cache-Control: no-cache
 ```
 
 <p align="center">
-  <img src="./assets/metrics.svg" alt="Production telemetry: 10+ years, 100+ releases, 120+ APIs, 5K+ users, 700+ sales" width="100%" />
+  <img src="./assets/metrics.svg" alt="Selected numbers: 10+ years, 100+ releases, 120+ APIs, 5,000+ users, 700+ sales" width="100%" />
 </p>
 
 I design and ship the unglamorous stuff that has to work on Monday morning: enterprise backends, REST APIs, payment flows, and AI features that survive contact with real users.
@@ -120,7 +120,7 @@ Systems I actually put on the internet. Not weekend clones. Not "coming soon".
 | **[CodeCanyon shop](https://codecanyon.net/user/sajjadarifgul)** | Commercial web products I designed, sold, and supported as a solo developer. 700+ sales. | ASP.NET · JS · SQL Server | `SELLING` |
 
 <p align="center">
-  <img src="./assets/pipeline.svg" alt="Request pipeline: problem → architecture → .NET Core → AI → data → production" width="100%" />
+  <img src="./assets/pipeline.svg" alt="How the work moves: problem, architecture, .NET Core, AI maybe, production" width="100%" />
 </p>
 
 ```csharp
@@ -175,19 +175,19 @@ I have opinions about Clean Architecture, a suspicious amount of payment-gateway
 
 ---
 
-## Telemetry
+## On GitHub
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SajjadArifGul&bg_color=07090f&color=a78bfa&line=8b5cf6&point=22d3ee&area=true&hide_border=true&custom_title=commit%20velocity" alt="commit velocity" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SajjadArifGul&bg_color=F5F2EC&color=191714&line=CC3719&point=CC3719&area_color=CC3719&area=true&hide_border=true&custom_title=commits" alt="commit graph" />
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SajjadArifGul&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SajjadArifGul&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SajjadArifGul&show_icons=true&include_all_commits=true&count_private=true&bg_color=F5F2EC&title_color=CC3719&text_color=191714&icon_color=CC3719&hide_border=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SajjadArifGul&layout=compact&langs_count=8&bg_color=F5F2EC&title_color=CC3719&text_color=191714&hide_border=true" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=SajjadArifGul&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=SajjadArifGul&background=F5F2EC&ring=CC3719&fire=CC3719&currStreakNum=191714&sideNums=191714&currStreakLabel=CC3719&sideLabels=67625C&dates=67625C&stroke=D5D0C8&hide_border=true" alt="GitHub streak" />
 </p>
 
 ### `htop`
@@ -283,9 +283,9 @@ Recruiters, founders, and people with a gnarly .NET or AI problem:
 **[sajjadgul.com](https://sajjadgul.com)** · **[sajjad.ai](https://sajjad.ai)** · **[contact@sajjadgul.com](mailto:contact@sajjadgul.com)** · **[LinkedIn](https://linkedin.com/in/sajjadarifgul)**
 
 <p align="center">
-  <a href="https://sajjadgul.com"><img src="https://img.shields.io/badge/portfolio-sajjadgul.com-A78BFA?style=flat-square" alt="portfolio" /></a>
-  <a href="https://sajjad.ai"><img src="https://img.shields.io/badge/ai-sajjad.ai-6D28D9?style=flat-square" alt="sajjad.ai" /></a>
-  <a href="mailto:contact@sajjadgul.com"><img src="https://img.shields.io/badge/email-contact@sajjadgul.com-0D1117?style=flat-square" alt="email" /></a>
+  <a href="https://sajjadgul.com"><img src="https://img.shields.io/badge/portfolio-sajjadgul.com-191714?style=flat-square" alt="portfolio" /></a>
+  <a href="https://sajjad.ai"><img src="https://img.shields.io/badge/ai-sajjad.ai-CC3719?style=flat-square" alt="sajjad.ai" /></a>
+  <a href="mailto:contact@sajjadgul.com"><img src="https://img.shields.io/badge/email-contact@sajjadgul.com-191714?style=flat-square" alt="email" /></a>
   <a href="https://linkedin.com/in/sajjadarifgul"><img src="https://img.shields.io/badge/linkedin-sajjadarifgul-0A66C2?style=flat-square" alt="linkedin" /></a>
   <a href="https://x.com/SajjadArifGul"><img src="https://img.shields.io/badge/x-@SajjadArifGul-000000?style=flat-square" alt="x" /></a>
   <a href="https://www.youtube.com/SajjadArifGul"><img src="https://img.shields.io/badge/youtube-SajjadArifGul-FF0000?style=flat-square" alt="youtube" /></a>
