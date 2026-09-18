@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Sajjad Arif Gul, Senior .NET Software Engineer">
+  <rect width="1200" height="280" fill="#F5F2EC"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="278.5" fill="none" stroke="#D5D0C8" stroke-width="1.5"/>
+
+  <!-- crop marks: same motif as sajjadgul.com/404 -->
+  <g fill="none" stroke="#191714" stroke-width="1">
+    <path d="M16 8v20M8 16h20"/>
+    <path d="M1184 8v20M1172 16h20"/>
+    <path d="M16 252v20M8 264h20"/>
+    <path d="M1184 252v20M1172 264h20"/>
+  </g>
+
+  <rect x="48" y="42" width="8" height="8" fill="#CC3719"/>
+  <text x="66" y="51" fill="#CC3719" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="2.2">SENIOR .NET SOFTWARE ENGINEER</text>
+  <text x="1152" y="51" text-anchor="end" fill="#67625C" font-family="Consolas, Menlo, monospace" font-size="12">Jeddah, Saudi Arabia</text>
+
+  <text x="48" y="128" fill="#191714" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="600">Sajjad Arif Gul</text>
+  <rect x="48" y="146" width="428" height="2" fill="#CC3719"/>
+
+  <text x="48" y="186" fill="#191714" font-family="Georgia, Times New Roman, serif" font-size="20" font-style="italic">Reliable software first. AI where it adds real value.</text>
+  <text x="48" y="214" fill="#67625C" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="1.4">ENGINEERING PHILOSOPHY</text>
+
+  <line x1="820" y1="88" x2="820" y2="220" stroke="#D5D0C8" stroke-width="1"/>
+
+  <text x="848" y="108" fill="#67625C" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="1.6">AVAILABLE</text>
+  <text x="848" y="132" fill="#191714" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Onsite / remote</text>
+
+  <text x="848" y="168" fill="#67625C" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="1.6">ALSO</text>
+  <text x="848" y="192" fill="#CC3719" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">sajjad.ai</text>
+
+  <line x1="48" y1="236" x2="1152" y2="236" stroke="#D5D0C8" stroke-width="1"/>
+  <text x="48" y="258" fill="#67625C" font-family="Consolas, Menlo, monospace" font-size="12">sajjadgul.com</text>
+  <text x="1152" y="258" text-anchor="end" fill="#67625C" font-family="Consolas, Menlo, monospace" font-size="12">writing software since 2014</text>
+</svg>

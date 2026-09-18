@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="How Sajjad takes work from a problem to production">
+  <rect width="1200" height="150" fill="#F5F2EC"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="148.5" fill="none" stroke="#D5D0C8" stroke-width="1.5"/>
+
+  <text x="48" y="36" fill="#67625C" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="2">HOW THE WORK ACTUALLY MOVES</text>
+
+  <line x1="80" y1="78" x2="1120" y2="78" stroke="#D5D0C8" stroke-width="1"/>
+  <circle cx="80" cy="78" r="4" fill="#CC3719"/>
+  <circle cx="340" cy="78" r="4" fill="#CC3719"/>
+  <circle cx="600" cy="78" r="4" fill="#CC3719"/>
+  <circle cx="860" cy="78" r="4" fill="#CC3719"/>
+  <circle cx="1120" cy="78" r="4" fill="#CC3719"/>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="80" y="64" fill="#CC3719" font-family="Consolas, Menlo, monospace" font-size="11">01</text>
+    <text x="80" y="108" fill="#191714" font-size="15" font-weight="600">Problem</text>
+    <text x="80" y="128" fill="#67625C" font-size="12">messy, real, paid</text>
+
+    <text x="340" y="64" fill="#CC3719" font-family="Consolas, Menlo, monospace" font-size="11">02</text>
+    <text x="340" y="108" fill="#191714" font-size="15" font-weight="600">Architecture</text>
+    <text x="340" y="128" fill="#67625C" font-size="12">boundaries first</text>
+
+    <text x="600" y="64" fill="#CC3719" font-family="Consolas, Menlo, monospace" font-size="11">03</text>
+    <text x="600" y="108" fill="#191714" font-size="15" font-weight="600">.NET Core</text>
+    <text x="600" y="128" fill="#67625C" font-size="12">APIs that hold</text>
+
+    <text x="860" y="64" fill="#CC3719" font-family="Consolas, Menlo, monospace" font-size="11">04</text>
+    <text x="860" y="108" fill="#191714" font-size="15" font-weight="600">AI, maybe</text>
+    <text x="860" y="128" fill="#67625C" font-size="12">only if it earns rent</text>
+
+    <text x="1120" y="64" text-anchor="end" fill="#CC3719" font-family="Consolas, Menlo, monospace" font-size="11">05</text>
+    <text x="1120" y="108" text-anchor="end" fill="#191714" font-size="15" font-weight="600">Production</text>
+    <text x="1120" y="128" text-anchor="end" fill="#67625C" font-size="12">Monday-proof</text>
+  </g>
+</svg>
