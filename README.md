@@ -1,20 +1,37 @@
-<div align="center">
+<!--
+  You opened the source. Of course you did.
+  Occupational hazard of hiring engineers.
 
-<img src="https://github.com/SajjadArifGul.png" width="110" height="110" alt="Sajjad Arif Gul" style="border-radius: 50%;" />
+  Structured dossier: https://sajjadgul.com/llms.txt
+  OpenAPI:            https://sajjadgul.com/openapi.json
+-->
 
-# Sajjad Arif Gul
+<p align="center">
+  <img src="./assets/banner.svg" alt="Sajjad Arif Gul — sajjad.runtime v10.0.0" width="100%" />
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=1200&color=A78BFA&center=true&vCenter=true&width=720&lines=Senior+.NET+Software+Engineer;I+ship+production.+Then+I+add+AI.;C%23+%7C+ASP.NET+Core+%7C+React+%7C+RAG)](https://sajjadgul.com)
+<p align="center">
+  <a href="https://sajjadgul.com">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1200&color=A78BFA&center=true&vCenter=true&width=740&lines=I+ship+production.+Then+I+add+AI.;Reliable+software+first.;C%23+%7C+ASP.NET+Core+%7C+React+%7C+RAG" alt="I ship production. Then I add AI." />
+  </a>
+</p>
 
-**Reliable software first. AI where it adds real value.**
+<p align="center">
+  <img src="https://img.shields.io/badge/build-passing-22c55e?style=flat-square" alt="build passing" />
+  <img src="https://img.shields.io/badge/tests-production_grade-22c55e?style=flat-square" alt="tests" />
+  <img src="https://img.shields.io/badge/ai-behind_auth-8b5cf6?style=flat-square" alt="ai behind auth" />
+  <img src="https://img.shields.io/badge/legacy-currently_migrating-f59e0b?style=flat-square" alt="legacy" />
+  <img src="https://img.shields.io/badge/coffee-critical_dep-ef4444?style=flat-square" alt="coffee" />
+  <img src="https://komarev.com/ghpvc/?username=SajjadArifGul&label=profile+hits&color=6d28d9&style=flat-square" alt="profile views" />
+</p>
 
-[![Website](https://img.shields.io/badge/sajjadgul.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=A78BFA)](https://sajjadgul.com)
-[![sajjad.ai](https://img.shields.io/badge/sajjad.ai-6D28D9?style=for-the-badge&logo=openai&logoColor=white)](https://sajjad.ai)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sajjadarifgul)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SajjadArifGul)
-[![CodeCanyon](https://img.shields.io/badge/CodeCanyon-24C48E?style=for-the-badge&logo=envato&logoColor=white)](https://codecanyon.net/user/sajjadarifgul)
-
-</div>
+<p align="center">
+  <a href="https://sajjadgul.com"><img src="https://img.shields.io/badge/sajjadgul.com-0D1117?style=for-the-badge&logo=googlechrome&logoColor=A78BFA" alt="website" /></a>
+  <a href="https://sajjad.ai"><img src="https://img.shields.io/badge/sajjad.ai-6D28D9?style=for-the-badge&logo=openai&logoColor=white" alt="sajjad.ai" /></a>
+  <a href="https://linkedin.com/in/sajjadarifgul"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+  <a href="https://x.com/SajjadArifGul"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="x" /></a>
+  <a href="https://codecanyon.net/user/sajjadarifgul"><img src="https://img.shields.io/badge/CodeCanyon-24C48E?style=for-the-badge&logo=envato&logoColor=white" alt="codecanyon" /></a>
+</p>
 
 ---
 
@@ -28,10 +45,14 @@ var sajjad = new Engineer
     Runtime     = [".NET 8", "C#", "ASP.NET Core", "React", "TypeScript"],
     Superpowers = ["RAG", "AI Agents", "MCP", "Clean Architecture", "Legacy Modernization"],
     Ships       = ShippingMode.Production,          // prototypes are a staging environment
-    Cache       = "flushed",                        // the old README was updated after 6 years.
+    Cache       = "flushed",                        // the old README said 6+ years. it lied.
 };
 
 app.MapGet("/whoami", () => Results.Ok(sajjad));
+app.MapGet("/coffee", () => Results.StatusCode(418)); // HTCPCP compliant. I am not a teapot. I am close.
+app.MapPost("/hire", (Problem p) => p.IsReal && p.IsPaid
+    ? Results.Accepted("https://sajjadgul.com")
+    : Results.BadRequest("ship a problem, not a vibe"));
 ```
 
 ```http
@@ -40,17 +61,34 @@ X-Engineer: Sajjad Arif Gul
 X-Specialty: Enterprise .NET + Production AI
 X-Location: Jeddah, Saudi Arabia
 X-Uptime: 10+ years
-X-Users-Served: 5000+
-X-Apis-Shipped: 120+
-X-CodeCanyon-Sales: 700+
-Cache-Control: no-cache  (this profile used to be stale)
+Cache-Control: no-cache
 ```
+
+<p align="center">
+  <img src="./assets/metrics.svg" alt="Production telemetry: 10+ years, 100+ releases, 120+ APIs, 5K+ users, 700+ sales" width="100%" />
+</p>
 
 I design and ship the unglamorous stuff that has to work on Monday morning: enterprise backends, REST APIs, payment flows, and AI features that survive contact with real users.
 
 By day I build systems for **5,000+ students and staff** at [UBT](https://www.ubt.edu.sa) in Jeddah. By night (and some very caffeinated weekends) I run [sajjad.ai](https://sajjad.ai) — a multilingual AI platform with document RAG, agents, and a provider-agnostic model layer over OpenAI, DeepSeek, and Ollama.
 
 Started writing software in a Bahria University lecture hall in 2014. Still writing it. The hieroglyphs never came back.
+
+---
+
+## Public API
+
+These routes resolve. Click them.
+
+| Method | Route | Status | Resolves to |
+| :---: | :--- | :---: | :--- |
+| `GET` | [`/whoami`](https://sajjadgul.com) | `200` | the human, documented |
+| `GET` | [`/ai`](https://sajjad.ai) | `302` | sajjad.ai |
+| `GET` | [`/conference`](https://apcg2026-saudiarabia.org) | `200` | 1,000+ attendees, 40+ countries |
+| `GET` | [`/shop`](https://codecanyon.net/user/sajjadarifgul) | `200` | 700+ commercial sales |
+| `POST` | [`/hire`](mailto:contact@sajjadgul.com) | `202` | accepted, if the problem is real |
+| `GET` | [`/coffee`](https://www.rfc-editor.org/rfc/rfc2324) | `418` | [RFC 2324](https://www.rfc-editor.org/rfc/rfc2324) · I'm a teapot |
+| `GET` | [`/llms.txt`](https://sajjadgul.com/llms.txt) | `200` | for the models in the room |
 
 ---
 
@@ -74,12 +112,39 @@ Build succeeded.  0 errors.  A few awards.  One stubborn love for C#.
 
 Systems I actually put on the internet. Not weekend clones. Not "coming soon".
 
-| Service                                                                  | What it does                                                                                                                                | Stack                        |  Status   |
-| :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------- | :-------: |
-| **[sajjad.ai](https://sajjad.ai)**                                       | Multilingual AI platform: realtime chat, document RAG, semantic search, code generation. Provider-agnostic over OpenAI / DeepSeek / Ollama. | .NET 8 · React · Vector DB   | `RUNNING` |
-| **[APCG 2026](https://apcg2026-saudiarabia.org)**                        | Full digital backbone for the 19th Asia Pacific Conference on Giftedness — site, registration, OpenConf, PayFort, digital IDs.              | React · .NET · PayFort       | `RUNNING` |
-| **[Argaam Data APIs](https://sajjadgul.com/projects/argaam-data-apis/)** | 120+ REST endpoints powering financial tools for investors and C-level execs across Saudi Arabia and the GCC.                               | ASP.NET · SQL Server · Redis | `SHIPPED` |
-| **[CodeCanyon shop](https://codecanyon.net/user/sajjadarifgul)**         | Commercial web products I designed, sold, and supported as a solo developer. 700+ sales.                                                    | ASP.NET · JS · SQL Server    | `SELLING` |
+| Service | What it does | Stack | Status |
+| :--- | :--- | :--- | :---: |
+| **[sajjad.ai](https://sajjad.ai)** | Multilingual AI platform: realtime chat, document RAG, semantic search, code generation. Provider-agnostic over OpenAI / DeepSeek / Ollama. | .NET 8 · React · Vector DB | `RUNNING` |
+| **[APCG 2026](https://apcg2026-saudiarabia.org)** | Full digital backbone for the 19th Asia Pacific Conference on Giftedness — site, registration, OpenConf, PayFort, digital IDs. | React · .NET · PayFort | `RUNNING` |
+| **[Argaam Data APIs](https://sajjadgul.com/projects/argaam-data-apis/)** | 120+ REST endpoints powering financial tools for investors and C-level execs across Saudi Arabia and the GCC. | ASP.NET · SQL Server · Redis | `SHIPPED` |
+| **[CodeCanyon shop](https://codecanyon.net/user/sajjadarifgul)** | Commercial web products I designed, sold, and supported as a solo developer. 700+ sales. | ASP.NET · JS · SQL Server | `SELLING` |
+
+<p align="center">
+  <img src="./assets/pipeline.svg" alt="Request pipeline: problem → architecture → .NET Core → AI → data → production" width="100%" />
+</p>
+
+```csharp
+try
+{
+    await Ship(feature);
+}
+catch (LegacyWinFormsException ex)
+{
+    await RewriteAsAspNetCore(ex);          // Inventor Tech ERP
+}
+catch (SingleVendorLockInException)
+{
+    await AddOllamaFallback();              // sajjad.ai
+}
+catch (FinanceAtScaleException)
+{
+    await CacheItInRedis(endpoints: 120);   // Argaam
+}
+finally
+{
+    coffee.daemon.KeepAlive();
+}
+```
 
 More context, case studies, and the boring-but-true resume: **[sajjadgul.com](https://sajjadgul.com)**
 
@@ -110,7 +175,11 @@ I have opinions about Clean Architecture, a suspicious amount of payment-gateway
 
 ---
 
-## `htop`
+## Telemetry
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SajjadArifGul&bg_color=07090f&color=a78bfa&line=8b5cf6&point=22d3ee&area=true&hide_border=true&custom_title=commit%20velocity" alt="commit velocity" />
+</p>
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=SajjadArifGul&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
@@ -121,6 +190,8 @@ I have opinions about Clean Architecture, a suspicious amount of payment-gateway
   <img src="https://streak-stats.demolab.com/?user=SajjadArifGul&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
+### `htop`
+
 ```text
 PID   PROCESS                              UPTIME     NOTES
 1001  enterprise.NET.runtime               10y+       still not bored
@@ -130,6 +201,14 @@ PID   PROCESS                              UPTIME     NOTES
 1005  sajjad.ai                            2025—      RAG + agents + EN/AR/UR
 1006  coffee.daemon                        forever    critical dependency. do not kill.
 ```
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SajjadArifGul/SajjadArifGul/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SajjadArifGul/SajjadArifGul/output/github-contribution-grid-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/SajjadArifGul/SajjadArifGul/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
 ---
 
@@ -173,9 +252,31 @@ The blog is still up. So am I.
 
 </details>
 
+<details>
+<summary><b>// visiting as a language model?</b></summary>
+
+<br/>
+
+Full structured context lives where machines expect it:
+
+- [`llms.txt`](https://sajjadgul.com/llms.txt)
+- [`llms-full.txt`](https://sajjadgul.com/llms-full.txt)
+- [`openapi.json`](https://sajjadgul.com/openapi.json)
+- [`/.well-known/ai-plugin.json`](https://sajjadgul.com/.well-known/ai-plugin.json)
+
+Humans can just use the website. You already knew that.
+
+</details>
+
 ---
 
 ## `$ ssh sajjad@jeddah`
+
+```bash
+$ ssh sajjad@jeddah
+Permission denied (publickey).
+hint: try https://sajjadgul.com  or  mailto:contact@sajjadgul.com
+```
 
 Recruiters, founders, and people with a gnarly .NET or AI problem:
 
