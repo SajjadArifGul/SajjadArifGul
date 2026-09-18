@@ -49,7 +49,7 @@ var sajjad = new Engineer
 };
 
 app.MapGet("/whoami", () => Results.Ok(sajjad));
-app.MapGet("/coffee", () => Results.StatusCode(418)); // HTCPCP compliant. I am not a teapot. I am close.
+app.MapGet("/coffee", () => Results.StatusCode(418)); // HTCPCP compliant. I am not a teapot. I like tea
 app.MapPost("/hire", (Problem p) => p.IsReal && p.IsPaid
     ? Results.Accepted("https://sajjadgul.com")
     : Results.BadRequest("ship a problem, not a vibe"));
@@ -80,15 +80,15 @@ Started writing software in a Bahria University lecture hall in 2014. Still writ
 
 These routes resolve. Click them.
 
-| Method | Route | Status | Resolves to |
-| :---: | :--- | :---: | :--- |
-| `GET` | [`/whoami`](https://sajjadgul.com) | `200` | the human, documented |
-| `GET` | [`/ai`](https://sajjad.ai) | `302` | sajjad.ai |
-| `GET` | [`/conference`](https://apcg2026-saudiarabia.org) | `200` | 1,000+ attendees, 40+ countries |
-| `GET` | [`/shop`](https://codecanyon.net/user/sajjadarifgul) | `200` | 700+ commercial sales |
-| `POST` | [`/hire`](mailto:contact@sajjadgul.com) | `202` | accepted, if the problem is real |
-| `GET` | [`/coffee`](https://www.rfc-editor.org/rfc/rfc2324) | `418` | [RFC 2324](https://www.rfc-editor.org/rfc/rfc2324) · I'm a teapot |
-| `GET` | [`/llms.txt`](https://sajjadgul.com/llms.txt) | `200` | for the models in the room |
+| Method | Route                                                | Status | Resolves to                                                           |
+| :----: | :--------------------------------------------------- | :----: | :-------------------------------------------------------------------- |
+| `GET`  | [`/whoami`](https://sajjadgul.com)                   | `200`  | the human, documented                                                 |
+| `GET`  | [`/ai`](https://sajjad.ai)                           | `302`  | sajjad.ai                                                             |
+| `GET`  | [`/conference`](https://apcg2026-saudiarabia.org)    | `200`  | 1,000+ attendees, 40+ countries                                       |
+| `GET`  | [`/shop`](https://codecanyon.net/user/sajjadarifgul) | `200`  | 700+ commercial sales                                                 |
+| `POST` | [`/hire`](mailto:contact@sajjadgul.com)              | `202`  | accepted, if the problem is real                                      |
+| `GET`  | [`/coffee`](https://www.rfc-editor.org/rfc/rfc2324)  | `418`  | [RFC 2324](https://www.rfc-editor.org/rfc/rfc2324) · I'm NOT a teapot |
+| `GET`  | [`/llms.txt`](https://sajjadgul.com/llms.txt)        | `200`  | for the models in the room                                            |
 
 ---
 
@@ -112,12 +112,12 @@ Build succeeded.  0 errors.  A few awards.  One stubborn love for C#.
 
 Systems I actually put on the internet. Not weekend clones. Not "coming soon".
 
-| Service | What it does | Stack | Status |
-| :--- | :--- | :--- | :---: |
-| **[sajjad.ai](https://sajjad.ai)** | Multilingual AI platform: realtime chat, document RAG, semantic search, code generation. Provider-agnostic over OpenAI / DeepSeek / Ollama. | .NET 8 · React · Vector DB | `RUNNING` |
-| **[APCG 2026](https://apcg2026-saudiarabia.org)** | Full digital backbone for the 19th Asia Pacific Conference on Giftedness — site, registration, OpenConf, PayFort, digital IDs. | React · .NET · PayFort | `RUNNING` |
-| **[Argaam Data APIs](https://sajjadgul.com/projects/argaam-data-apis/)** | 120+ REST endpoints powering financial tools for investors and C-level execs across Saudi Arabia and the GCC. | ASP.NET · SQL Server · Redis | `SHIPPED` |
-| **[CodeCanyon shop](https://codecanyon.net/user/sajjadarifgul)** | Commercial web products I designed, sold, and supported as a solo developer. 700+ sales. | ASP.NET · JS · SQL Server | `SELLING` |
+| Service                                                                  | What it does                                                                                                                                | Stack                        |  Status   |
+| :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------- | :-------: |
+| **[sajjad.ai](https://sajjad.ai)**                                       | Multilingual AI platform: realtime chat, document RAG, semantic search, code generation. Provider-agnostic over OpenAI / DeepSeek / Ollama. | .NET 8 · React · Vector DB   | `RUNNING` |
+| **[APCG 2026](https://apcg2026-saudiarabia.org)**                        | Full digital backbone for the 19th Asia Pacific Conference on Giftedness — site, registration, OpenConf, PayFort, digital IDs.              | React · .NET · PayFort       | `RUNNING` |
+| **[Argaam Data APIs](https://sajjadgul.com/projects/argaam-data-apis/)** | 120+ REST endpoints powering financial tools for investors and C-level execs across Saudi Arabia and the GCC.                               | ASP.NET · SQL Server · Redis | `SHIPPED` |
+| **[CodeCanyon shop](https://codecanyon.net/user/sajjadarifgul)**         | Commercial web products I designed, sold, and supported as a solo developer. 700+ sales.                                                    | ASP.NET · JS · SQL Server    | `SELLING` |
 
 <p align="center">
   <img src="./assets/pipeline.svg" alt="How the work moves: problem, architecture, .NET Core, AI maybe, production" width="100%" />
@@ -178,15 +178,6 @@ I have opinions about Clean Architecture, a suspicious amount of payment-gateway
 ## On GitHub
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SajjadArifGul&bg_color=F5F2EC&color=191714&line=CC3719&point=CC3719&area_color=CC3719&area=true&hide_border=true&custom_title=commits" alt="commit graph" />
-</p>
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SajjadArifGul&show_icons=true&include_all_commits=true&count_private=true&bg_color=F5F2EC&title_color=CC3719&text_color=191714&icon_color=CC3719&hide_border=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SajjadArifGul&layout=compact&langs_count=8&bg_color=F5F2EC&title_color=CC3719&text_color=191714&hide_border=true" alt="Top languages" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com/?user=SajjadArifGul&background=F5F2EC&ring=CC3719&fire=CC3719&currStreakNum=191714&sideNums=191714&currStreakLabel=CC3719&sideLabels=67625C&dates=67625C&stroke=D5D0C8&hide_border=true" alt="GitHub streak" />
 </p>
 
@@ -195,20 +186,12 @@ I have opinions about Clean Architecture, a suspicious amount of payment-gateway
 ```text
 PID   PROCESS                              UPTIME     NOTES
 1001  enterprise.NET.runtime               10y+       still not bored
-1002  ubt.digital.transformation           2023—      5,000+ users, 30+ APIs, 8 legacy apps migrated
-1003  argaam.financial.platform            2016—2023  team of 5, 120+ endpoints, Employee of the Year
-1004  inventor.erp.modernization           2023—2025  WinForms → ASP.NET Core, 1,200+ orgs
-1005  sajjad.ai                            2025—      RAG + agents + EN/AR/UR
+1002  ubt.digital.transformation           2023-      5,000+ users, 30+ APIs, 8 legacy apps migrated
+1003  argaam.financial.platform            2016-2023  team of 5, 120+ endpoints, Employee of the Year
+1004  inventor.erp.modernization           2023-2025  WinForms to ASP.NET Core, 1,200+ orgs
+1005  sajjad.ai                            2025-      RAG + agents + EN/AR/UR
 1006  coffee.daemon                        forever    critical dependency. do not kill.
 ```
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SajjadArifGul/SajjadArifGul/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SajjadArifGul/SajjadArifGul/output/github-contribution-grid-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/SajjadArifGul/SajjadArifGul/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
 
 ---
 
