@@ -1,9 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-label="How a request moves through Sajjad">
   <rect width="1200" height="220" rx="20" fill="#07090f" stroke="#a78bfa" stroke-opacity="0.28"/>
-  <text x="28" y="34" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2.5">REQUEST PIPELINE  ·  CLEAN ARCHITECTURE WITH A PULSE</text>
+  <text x="28" y="34" fill="#64748b" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="2.5">REQUEST PIPELINE  |  CLEAN ARCHITECTURE WITH A PULSE</text>
 
-  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
-    <!-- nodes -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <g>
       <rect x="28" y="70" width="150" height="86" rx="14" fill="#12101c" stroke="#8b5cf6"/>
       <text x="103" y="108" text-anchor="middle" fill="#e2e8f0" font-size="15" font-weight="700">Problem</text>
@@ -27,7 +27,7 @@
     <g>
       <rect x="820" y="70" width="150" height="86" rx="14" fill="#0b1c22" stroke="#22d3ee"/>
       <text x="895" y="108" text-anchor="middle" fill="#e2e8f0" font-size="15" font-weight="700">Data plane</text>
-      <text x="895" y="130" text-anchor="middle" fill="#67e8f9" font-size="11">SQL · Vector · Redis</text>
+      <text x="895" y="130" text-anchor="middle" fill="#67e8f9" font-size="11">SQL | Vector | Redis</text>
     </g>
     <g>
       <rect x="1018" y="70" width="154" height="86" rx="14" fill="#052e16" stroke="#22c55e"/>
@@ -35,7 +35,6 @@
       <text x="1095" y="130" text-anchor="middle" fill="#86efac" font-size="11">Monday-proof</text>
     </g>
 
-    <!-- arrows -->
     <g fill="#64748b">
       <polygon points="186,113 218,113 218,107 226,113 218,119 218,113"/>
       <polygon points="384,113 416,113 416,107 424,113 416,119 416,113"/>
@@ -45,7 +44,6 @@
     </g>
   </g>
 
-  <!-- packet -->
   <circle r="5" fill="#a78bfa">
     <animateMotion dur="5.5s" repeatCount="indefinite" rotate="auto" path="M103,168 C301,190 499,150 697,168 C895,186 1018,150 1095,168"/>
   </circle>
@@ -54,5 +52,5 @@
     <animateMotion dur="5.5s" repeatCount="indefinite" path="M103,168 C301,190 499,150 697,168 C895,186 1018,150 1095,168"/>
   </circle>
 
-  <text x="28" y="198" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">packet: { reliable: true, ai: "optional", excuses: 0 }</text>
+  <text x="28" y="198" fill="#475569" font-family="Consolas, Menlo, monospace" font-size="11">packet: { reliable: true, ai: "optional", excuses: 0 }</text>
 </svg>
